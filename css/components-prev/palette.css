@@ -1,0 +1,43 @@
+.palette__circle {
+    color: gray;
+    font-size: 24px;
+    margin-right: 8px;
+}
+
+.palette__span {
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 16px;
+}
+
+.palette__circle--blue {
+    color: var(--blue-color);
+}
+
+.palette__circle--green {
+    color: var(--green-color);
+}
+
+.palette__circle--yellow {
+    color: var(--yellow-color);
+}
+
+.palette__circle--red {
+    color: var(--red-color);
+}
+
+.palette__circle--midnight {
+    color: var(--midnight-color);
+}
+
+.palette__circle--light {
+    color: var(--light-color);
+}
+
+.palette__circle--white {
+    color: var(--white-color);
+}
+
+.palette__circle--black {
+    color: var(--black-color);
+}

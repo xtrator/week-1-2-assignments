@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layouts</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/b63d9ab9a1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="header">
+    <img src="https://leanfrontiers.com/wp-content/uploads/2018/12/logo-placeholder-png.png" 
+    alt="" class="header header__logo" width="80" height="80">
+  </header>
+
+  <main class="main">
+    
+    <nav class="tabs">
+      <ul class="tabs__list">
+        <li class="tabs__list-item">
+          <a href="index.html" class="tabs__link">Typography</a>
+        </li>
+        <li class="tabs__list-item">
+          <a href="elements.html" class="tabs__link">Elements</a>
+        </li>
+        <li class="tabs__list-item">
+          <a href="blocks.html" class="tabs__link">Blocks</a>
+        </li>
+      </ul>
+    </nav>
+
+    <article class="article article--with-padding">
+      <h1 class="article__h1">Layouts</h2>
+
+      <section class="article__section">
+        <h2 class="article__h2">Two columns with header and footer</h2>
+        <div class="grid grid--2c-header-footer">
+          <div class="grid__header paragraph">header (fixed)</div>
+          <div class="grid__nav paragraph">nav (fixed)</div>
+          <div class="grid__main paragraph">main (flex)</div>
+          <div class="grid__footer paragraph">footer (fixed)</div>
+        </div>
+        <section class="code code--with-padding">
+          <code class="code__html">
+            <span class="code__html-tag">...</span>
+          </code>
+        </section>
+      </section>
+
+      <section class="article__section">
+        <h2 class="article__h2">Three columns with header and footer</h2>
+        <div class="grid grid--3c-header-footer">
+          <div class="grid__header paragraph">header (fixed)</div>
+          <div class="grid__nav paragraph">nav (fixed)</div>
+          <div class="grid__main paragraph">main (flex)</div>
+          <div class="grid__aside paragraph">aside (fixed)</div>
+          <div class="grid__footer paragraph">footer (fixed)</div>
+        </div>
+
+        <section class="code code--with-padding">
+          <code class="code__html">
+            <span class="code__html-tag">...</span>
+          </code>
+        </section>
+      </section>
+
+      <section class="article__section">
+        <h2 class="article__h2">Three columns</h2>
+        <div class="grid grid--3c">
+          <div class="paragraph grid__header">header (fixed)</div>
+          <div class="paragraph grid__nav">nav (fixed)</div>
+          <div class="paragraph grid__main">main (flex)</div>
+          <div class="paragraph grid__aside">aside (fixed)</div>
+        </div>
+
+        <section class="code code--with-padding">
+          <code class="code__html">
+            <span class="code__html-tag">...</span>
+          </code>
+        </section>
+      </section>
+
+    </article>
+  </main>
+</body>
+</html>

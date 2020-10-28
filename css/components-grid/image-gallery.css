@@ -1,0 +1,92 @@
+.grid--gallery {
+  grid-template-columns: repeat(10, 64px);
+  grid-template-rows: repeat(4, 64px);
+  gap: 8px;
+  grid-template-areas: 
+  "img1 img1 img2 img2 img2 img2 img3 img4 img5 img6"
+  "img1 img1 img2 img2 img2 img2 img7 img7 img7 img7"
+  "img8 img8 img2 img2 img2 img2 img7 img7 img7 img7"
+  "img8 img8 img2 img2 img2 img2 img9 img9 imga imga";
+  justify-content: center;
+}
+.grid__img  {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.9;
+}
+/* div img? */
+.grid--gallery > * {
+  padding: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.floating {
+  font-family: var(--body-font);
+  cursor: pointer;
+  user-select: none;
+  display: none;
+  color: white;
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.grid--gallery > *:hover .floating {
+  display: block;
+}
+
+
+/* after */
+.grid--gallery > *::after {
+  content: "";
+  height: 100%;  
+  cursor: pointer;
+  transition: 0.3s;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(7, 59, 76, 0.6);  
+  left: 0;
+  opacity: 0;
+}
+
+.grid--gallery > *:hover::after {
+  opacity: 1;
+}
+/* /after */
+
+.grid--gallery__img1 {
+  grid-area: img1;
+}
+
+.grid--gallery__img2 {
+  grid-area: img2;
+}
+.grid--gallery__img3 {
+  grid-area: img3;
+}
+.grid--gallery__img4 {
+  grid-area: img4;
+}
+.grid--gallery__img5 {
+  grid-area: img5;
+}
+.grid--gallery__img6 {
+  grid-area: img6;
+}
+.grid--gallery__img7 {
+  grid-area: img7;
+}
+.grid--gallery__img8 {
+  grid-area: img8;
+}
+.grid--gallery__img9 {
+  grid-area: img9;
+}
+.grid--gallery__imga {
+  grid-area: imga;
+}

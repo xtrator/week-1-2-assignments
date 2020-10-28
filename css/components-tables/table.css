@@ -1,0 +1,8 @@
+.table {
+  border-collapse: collapse;
+  border: 2px solid #DEE2E6;
+}
+
+.table__body .table__row:nth-child(even) {
+  background: var(--light-color);
+}

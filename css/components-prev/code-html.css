@@ -1,0 +1,30 @@
+.code {
+    background: var(--code-color);
+}
+
+.code--with-padding {
+    padding: 16px;
+}
+
+.code__html * {
+    font-family: var(--code-font);
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.code__html-plain {
+    color: var(--gray-color);
+}
+
+.code__html-tag {
+    color: var(--blue-color);
+}
+
+.code__html-attr {
+    color: var(--red-color);
+}
+
+.code__html-value {
+    color: var(--yellow-color);
+}

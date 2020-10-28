@@ -1,0 +1,19 @@
+.list {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.list__item {
+  font-family: var(--headings-font);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--black-color);
+  line-height: 24px;
+  box-sizing: border-box;
+  padding: 8px 42px;
+  border: 1px solid #F8F9FA;
+
+  text-decoration: none;
+  list-style: none;
+}

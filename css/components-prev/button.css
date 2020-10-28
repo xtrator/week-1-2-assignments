@@ -1,0 +1,73 @@
+.button__icon {
+    margin-bottom: 0;
+}
+
+.button {
+    background: var(--light-color);
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    padding: 8px 16px;
+    margin-right: 8px;
+    font-size: 16px;
+    font-family: var(--body-font);
+}
+
+.button * {
+    line-height: 1.5em;
+}
+
+.button__span {
+    font-family: var(--body-font);
+    font-size: 16px;
+}
+
+.button:hover   {
+    cursor: pointer;
+}
+.button:active {
+    background: var(--gray-color);
+    color: white;
+}
+
+.button--primary {
+    color: white;
+    background: var(--blue-color);
+}
+
+.button--secondary {
+    color: white;
+    background: var(--gray-color);
+}
+
+.button--success {
+    color: white;
+    background: var(--green-color);
+}
+
+.button--warning {
+    color: white;
+    background: var(--yellow-color);
+}
+
+.button--danger {
+    color: white;
+    background: var(--red-color);
+}
+
+.button--transparent {
+    color: black;
+    background: transparent;
+}
+
+.button--small {
+    color:  white;
+    background: var(--blue-color);
+    padding: 2px 4px;
+}
+
+.button--large {
+    color:  white;
+    background: var(--blue-color);
+    padding: 16px 32px;
+}

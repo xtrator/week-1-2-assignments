@@ -1,0 +1,34 @@
+.input__label {
+  width: 44px;
+  height: 24px;
+
+  font-family: var(--body-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+}
+
+.input__help-text {
+  height: 20px;
+
+  font-family: var(--body-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #000000;
+
+  flex: none;
+  order: 2;
+  align-self: flex-start;
+  flex-grow: 0;
+  margin: 0px 4px;
+
+  margin-bottom: 0px;
+}
+.input__help-text--red {
+    color: var(--red-color);
+}

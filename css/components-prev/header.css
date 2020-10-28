@@ -1,0 +1,8 @@
+.header {
+    text-align: center;
+    border: 1px solid var(--gray-color);
+}
+.header__logo {
+    margin: 16px;
+    border: none;
+}

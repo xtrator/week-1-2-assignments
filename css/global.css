@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Piazzolla:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --blue-color: #118ab2;
+  --green-color: #06d6a0;
+  --yellow-color: #ffd166;
+  --red-color: #ef476f;
+  --midnight-color: #073b4c;
+  --light-color: #f8f9fa;
+  --white-color: #ffffff;
+  --gray-color: #888888;
+  --code-color: #F5F5F5;
+  --black-color: #262626;
+  --body-font: "Montserrat", sans-serif;
+  --code-font: 'Fira Code', monospace;
+  --headings-font: "Piazzolla", serif;
+  --system-font: "SF Pro Display", "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--system-font);
+  line-height: 1.5em;
+}
+
+body {
+  background: var(--light-color);
+}
+
+.main {
+  display: flex;
+  background: white;
+  width: 1100px;
+  margin: auto;
+}
+.center {
+  margin: 0 32px;
+  width: 640px;
+}
+
+.article--with-padding {
+  width: 100%;
+  padding: 16px;
+}
+
+.article * {
+  margin-bottom: 16px;
+}
+
+.text--red {
+  color: var(--red-color);
+}
+
+.text--warning {
+  font-family: var(--body-font);
+  font-size: 12px;
+}
+
+.flex {
+  display: flex;
+}
+.flex--column {
+  flex-direction: column;
+  align-items: center;
+}
+.flex--right {
+  align-items: flex-start;
+}
+.flex--wrap {
+  flex-wrap: wrap;
+}

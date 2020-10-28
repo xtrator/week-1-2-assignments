@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blocks</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/b63d9ab9a1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="https://leanfrontiers.com/wp-content/uploads/2018/12/logo-placeholder-png.png"
+        alt=""
+        class="header header__logo"
+        width="80"
+        height="80"
+      />
+    </header>
+
+    <main class="main">
+      <nav class="tabs">
+        <ul class="tabs__list">
+          <li class="tabs__list-item">
+            <a href="index.html" class="tabs__link"
+              >Typography<i class="fas fa-greater-than tabs__icon"></i
+            ></a>
+          </li>
+          <li class="tabs__list-item">
+            <a href="elements.html" class="tabs__link"
+              >Elements<i class="fas fa-greater-than tabs__icon"></i
+            ></a>
+          </li>
+          <li class="tabs__list-item">
+            <a href="blocks.html" class="tabs__link"
+              >Blocks<i class="fas fa-greater-than tabs__icon"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="article article--with-padding">
+        <h1 class="article__h1">Blocks</h1>
+
+        <!-- Banner -->
+        <section>
+          <h2 class="article__h2">Banner</h2>
+
+          <section class="banner">
+            <h3 class="banner__h1">Full Stack Web Development</h3>
+            <p class="banner__p">
+              Become a better version of yourself in only 6 months.
+            </p>
+            <button class="button button--success">Apply Now</button>
+          </section>
+          <!-- code -->
+          <section class="code code--with-padding">
+            <code class="code__html">
+              <span class="code__html-tag">...</span>
+            </code>
+          </section>
+        </section>
+
+        <!-- tab group -->
+        <section>
+          <h2 class="article__h2">Tab Group</h2>
+          <section class="tab-group">
+            <form>
+              <input type="radio" name="banana" id="tab1" checked="checked" />
+              <label for="tab1" class="tab-group__tab">Tab</label>
+
+              <input type="radio" name="banana" id="tab2" />
+              <label for="tab2" class="tab-group__tab">Tab</label>
+
+              <input type="radio" name="banana" id="tab3" />
+              <label for="tab3" class="tab-group__tab tab-group__tab--active"
+                >Active Tab</label
+              >
+
+              <input type="radio" name="banana" id="tab4" />
+              <label for="tab4" class="tab-group__tab">Tab</label>
+
+              <input type="radio" name="banana" id="tab5" />
+              <label for="tab5" class="tab-group__tab">Tab</label>
+            </form>
+          </section>
+          <!-- code -->
+          <section class="code code--with-padding">
+            <code class="code__html">
+              <span class="code__html-tag">...</span>
+            </code>
+          </section>
+        </section>
+
+        <!-- card -->
+        <section>
+          <h2 class="article__h2">Card</h2>
+          <section class="card">
+            <div class="card__photo"></div>
+            <div class="card__content">
+              <h3 class="card__heading">Card Title</h3>
+              <p class="card__paragraph">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Suscipit consequatur laudantium accusamus iusto inventore minus
+                harum voluptatem quos sint officiis ipsum, neque dolor a
+                adipisci. Maiores iure tempore sed perspiciatis?
+              </p>
+            </div>
+            <button class="button button--success">Button</button>
+          </section>
+          <!-- code -->
+          <section class="code code--with-padding">
+            <code class="code__html">
+              <span class="code__html-tag">...</span>
+            </code>
+          </section>
+        </section>
+
+        <!-- Form -->
+        <section class="form__container">
+          <h2 class="article__h2">Form</h2>
+          <form class="form">
+            <h3 class="headings__h3">Update your profile</h3>
+            <section class="form__input">
+              <label for="user-name" class="input__label"
+                ><span class="text--red">*</span> Name</label
+              ><br />
+              <input
+                type="text"
+                name="user-name"
+                id=""
+                class="text-input"
+                placeholder="Placeholder"
+              />
+            </section>
+            <section class="form__input">
+              <label for="user-email" class="input__label"
+                ><span class="text--red">*</span> Email</label
+              ><br />
+              <input
+                type="text"
+                name="user-email"
+                id=""
+                class="text-input"
+                placeholder="Placeholder"
+              />
+            </section>
+            <section class="form__input">
+              <label for="user-gender" class="input__label">Gender</label><br />
+              <input
+                type="radio"
+                name="female"
+                id="radio-female"
+                class="radio"
+              />
+              <label for="radio-female" class="radio__label">Female</label>
+              <input type="radio" name="male" id="radio-male" class="radio" />
+              <label for="radio-male" class="radio__label">Male</label>
+              <input type="radio" name="male" id="radio-male" class="radio" />
+              <label for="radio-male" class="radio__label">Other</label>
+            </section>
+            <section class="form__input">
+              <label for="dropdown-country" class="input__label">Country</label
+              ><br />
+              <select name="" id="dropdown-country" class="dropdown">
+                <option class="dropdown__option" disabled selected>
+                  Select a country
+                </option>
+                <option value="" class="dropdown__option">Peru</option>
+                <option value="" class="dropdown__option">Mexico</option>
+                <option value="" class="dropdown__option">United States</option>
+                <option value="" class="dropdown__option">Malaysia</option>
+              </select>
+            </section>
+            <section class="form__input">
+              <label for="" class="input__label">Favorite languages</label
+              ><br />
+
+              <input
+                class="checkbox"
+                type="checkbox"
+                name="ruby"
+                id="checkbox-ruby"
+              />
+              <label for="checkbox-ruby" class="checkbox__label">Ruby</label>
+
+              <input
+                class="checkbox"
+                type="checkbox"
+                name="js"
+                id="checkbox-js"
+              />
+              <label for="checkbox-js" class="checkbox__label">JS</label>
+
+              <input
+                class="checkbox"
+                type="checkbox"
+                name="python"
+                id="checkbox-python"
+              />
+              <label for="checkbox-python" class="checkbox__label"
+                >Python</label
+              >
+            </section>
+            <section class="form__buttons">
+              <button class="button button--primary">Submit</button>
+              <button class="button button--secondary">Cancel</button>
+            </section>
+          </form>
+        </section>
+        <!-- :v  lo pongo aca porque no quiero que sea afectado por el flex que esta arriba-->
+        <section class="code code--with-padding">
+          <code class="code__html">
+            <span class="code__html-tag">...</span>
+          </code>
+        </section>
+
+        <!-- Table -->
+        <section>
+          <h2 class="article__h2">Table</h2>
+          <table class="table">
+            <tr class="table__row">
+              <th class="table__cell table__cell--header">Name</th>
+              <th class="table__cell table__cell--header">Code</th>
+              <th class="table__cell table__cell--header">Phone</th>
+              <th class="table__cell table__cell--header">Status</th>
+            </tr>
+            <tbody class="table__body">
+              <tr class="table__row">
+                <td class="table__cell">Some Name</td>
+                <td class="table__cell">N01</td>
+                <td class="table__cell">+51 123456789</td>
+                <td class="table__cell">Active</td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__cell">Other Name</td>
+                <td class="table__cell">N02</td>
+                <td class="table__cell">+51 123456789</td>
+                <td class="table__cell">Active</td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__cell">One More</td>
+                <td class="table__cell">N03</td>
+                <td class="table__cell">+51 123456789</td>
+                <td class="table__cell">Active</td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__cell">Last One</td>
+                <td class="table__cell">N04</td>
+                <td class="table__cell">+51 123456789</td>
+                <td class="table__cell">Active</td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- code -->
+          <section class="code code--with-padding">
+            <code class="code__html">
+              <span class="code__html-tag">...</span>
+            </code>
+          </section>
+        </section>
+
+        <!-- Images Gallery with hover 'view image' css -->
+        <section class="article__section">
+          <h2 class="article__h2">Images Gallery</h2>
+          <div class="grid grid--gallery">
+            <div class="grid--gallery__img1">
+              <p class="floating">View</p>
+              <img
+                src="images/images_gallery/gallery_img1.jpeg"
+                class="grid__img"
+                alt=""
+              />
+            </div>
+            <div class="grid--gallery__img2">
+              <p class="floating">View</p>
+              <img
+                src="images/images_gallery/gallery_img2.jpeg"
+                class="grid__img"
+                alt=""
+              />
+            </div>
+            <div class="grid--gallery__img3">
+              <p class="floating">View</p>
+              <img
+                src="images/images_gallery/gallery_img3.jpeg"
+                class="grid__img"
+                alt=""
+              />
+            </div>
+            <div class="grid--gallery__img4">
+              <p class="floating">View</p>
+              <img
+                src="images/images_gallery/gallery_img4.jpeg"
+                class="grid__img"
+                alt=""
+              />
+            </div>
+            <div class="grid--gallery__img5">
+              <p class="floating">View</p>
+              <img
+                src="images/images_gallery/gallery_img5.jpeg"
+                class="grid__img"
+                alt=""
+              />
+            </div>
+            <div class="grid--gallery__img6">
+              <p class="floating">View</p>
+              <img
+                src="images/images_gallery/gallery_img6.jpeg"
+                class="grid__img"
+                alt=""
+              />
+            </div>
+            <div class="grid--gallery__img7">
+              <p class="floating">View</p>
+              <img
+                src="images/images_gallery/gallery_img7.jpeg"
+                class="grid__img"
+                alt=""
+              />
+            </div>
+            <div class="grid--gallery__img8">
+              <p class="floating">View</p>
+              <img
+                src="images/images_gallery/gallery_img8.jpeg"
+                class="grid__img"
+                alt=""
+              />
+            </div>
+            <div class="grid--gallery__img9">
+              <p class="floating">View</p>
+              <img
+                src="images/images_gallery/gallery_img9.jpeg"
+                class="grid__img"
+                alt=""
+              />
+            </div>
+            <div class="grid--gallery__imga">
+              <p class="floating">View</p>
+              <img
+                src="images/images_gallery/gallery_imga.jpeg"
+                class="grid__img"
+                alt=""
+              />
+            </div>
+          </div>
+          <section class="code code--with-padding">
+            <code class="code__html">
+              <span class="code__html-tag">...</span>
+            </code>
+          </section>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>

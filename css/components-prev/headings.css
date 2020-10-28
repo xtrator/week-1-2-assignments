@@ -1,0 +1,44 @@
+.headings * {
+  font-family: var(--headings-font);
+}
+.headings {
+  font-family: var(--headings-font);
+}
+
+.headings__h1 {
+  font-size: 32px;
+}
+.headings__h2 {
+  font-size: 28px;
+}
+.headings__h3 {
+  font-size: 24px;
+  font-family: var(--headings-font);
+}
+.headings__h4 {
+  font-size: 20px;
+}
+.headings__h5 {
+  font-size: 16px;
+}
+.headings__h6 {
+  font-size: 12px;
+
+  text-transform: uppercase;
+}
+
+.article__h1 {
+  font-size: 24px;
+}
+
+.article__h2 {
+  font-size: 20px;
+}
+
+.article__h3 {
+  font-family: var(--body-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}

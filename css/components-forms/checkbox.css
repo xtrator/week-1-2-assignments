@@ -1,0 +1,20 @@
+.checkbox {
+  border: 1px solid #888888;
+  box-sizing: border-box;
+  border-radius: 2px;
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+  color: var(--blue-color);
+  margin-bottom: 0;
+}
+
+.checkbox__label {
+  font-family: var(--body-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--black-color);
+  margin-right: 16px;
+}

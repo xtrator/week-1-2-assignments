@@ -1,0 +1,24 @@
+.tab-group {
+    display: flex;
+}
+
+.tab-group__tab {
+    box-sizing: border-box;
+    padding: 8px 16px;
+    border: 1px solid var(--gray-color);
+    border-radius: 2px 2px 0 0;
+    border-bottom: none;
+    margin-right: 4px;
+    color: var(--gray-color);
+    background: var(--light-color);
+}
+
+.tab-group__tab--active {
+    border-color: var(--blue-color);
+    color: var(--blue-color);
+    background: var(--white-color);
+}
+
+.tab-group [type="radio"] {
+    appearance: none;
+}

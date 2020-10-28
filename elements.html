@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elements</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/b63d9ab9a1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="https://leanfrontiers.com/wp-content/uploads/2018/12/logo-placeholder-png.png"
+        alt=""
+        class="header header__logo"
+        width="80"
+        height="80"
+      />
+    </header>
+
+    <main class="main">
+      <nav class="tabs">
+        <ul class="tabs__list">
+          <li class="tabs__list-item">
+            <a href="index.html" class="tabs__link"
+              >Typography<i class="fas fa-greater-than tabs__icon"></i
+            ></a>
+          </li>
+          <li class="tabs__list-item">
+            <a href="elements.html" class="tabs__link"
+              >Elements<i class="fas fa-greater-than tabs__icon"></i
+            ></a>
+          </li>
+          <li class="tabs__list-item">
+            <a href="blocks.html" class="tabs__link"
+              >Blocks<i class="fas fa-greater-than tabs__icon"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="article article--with-padding">
+        <h1 class="article__h1">Elements</h1>
+
+        <section class="article__section">
+          <h2 class="article__h2">Base Button</h2>
+          <button class="button">
+            <i class="button__icon fas fa-download"></i>
+            <span class="button__span">Base Button</span>
+          </button>
+          <section class="code code--with-padding">
+            <code class="code__html">
+              <span class="code__html-tag">
+                &lt;a
+                <span class="code__html-attr"
+                  >class=
+                  <span class="code__html-value">"button"</span>
+                </span>
+                <span class="code__html-attr"
+                  >href=
+                  <span class="code__html-value">"#"</span>
+                </span>
+                &gt;
+              </span>
+            </code>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <code class="code__html">
+              <span class="code__html-tag"
+                >&lt;i
+                <span class="attr"
+                  >class= <span class="code__html-value">""</span>&gt;
+                  <span class="code__html-plain"> Base Button</span>
+                </span>
+              </span>
+            </code>
+            <br />
+            <code class="code__html">
+              <span class="code__html-tag"> &lt;/a&gt; </span>
+            </code>
+          </section>
+        </section>
+
+        <section class="article__section">
+          <h2 class="article__h2">Button Types</h2>
+          <section class="wrapper">
+            <button class="button button--primary">
+              <span class="button__span">Primary</span>
+            </button>
+
+            <button class="button button--secondary">
+              <span class="button__span">Secondary</span>
+            </button>
+
+            <button class="button button--success">
+              <span class="button__span">Success</span>
+            </button>
+
+            <button class="button button--warning">
+              <span class="button__span">Warning</span>
+            </button>
+
+            <button class="button button--danger">
+              <span class="button__span">Danger</span>
+            </button>
+
+            <button class="button button--transparent">
+              <span class="button__span">Transparent</span>
+            </button>
+          </section>
+          <section class="code">
+            <code class="code__html">
+              <span class="code__html-tag">
+                &lt;a
+                <span class="code__html-attr"
+                  >class=
+                  <span class="code__html-value">"button_primary"</span>
+                </span>
+                <span class="code__html-attr"
+                  >href=
+                  <span class="code__html-value">"#"</span>
+                </span>
+                &gt;
+                <span class="code__html-plain">Primary</span>
+                &lt;/a&gt;
+              </span>
+              <br />
+              <span class="code__html-tag">...</span>
+            </code>
+          </section>
+        </section>
+
+        <section class="article__section">
+          <h2 class="article__h2">Button Styles</h2>
+          <section class="wraper">
+            <button class="button button--primary">
+              <span class="button__span">Primary</span>
+            </button>
+
+            <button class="button button--primary">
+              <i class="button__icon fas fa-download"></i>
+              <span class="button__span">With Icon</span>
+            </button>
+
+            <button class="button button--primary">
+              <i class="button__icon fas fa-download"></i>
+            </button>
+          </section>
+
+          <section class="code code--with-padding">
+            <code class="code__html">
+              <span class="code__html-tag">...</span>
+            </code>
+          </section>
+        </section>
+
+        <section class="article__section">
+          <h2 class="article__h2">Button Sizes</h2>
+          <section class="wrapper">
+            <button class="button button--primary">
+              <span class="button__span">Primary</span>
+            </button>
+            <button class="button button--small">
+              <span class="button__span">Small</span>
+            </button>
+            <button class="button button--large">
+              <span class="button__span">Large</span>
+            </button>
+          </section>
+          <section class="code code--with-padding">
+            <code class="code__html">
+              <span class="code__html-tag">...</span>
+            </code>
+          </section>
+        </section>
+
+        <section class="article__section">
+          <h2 class="article__h2">Images</h2>
+          <section class="wrapper">
+            <img class="image" alt="" height="100" width="100" />
+            <img class="image image--round" alt="" height="100" width="100" />
+            <img
+              class="image image--with-shadow"
+              alt=""
+              height="100"
+              width="100"
+            />
+            <img
+              class="image image--round image--with-shadow"
+              alt=""
+              height="100"
+              width="100"
+            />
+          </section>
+        </section>
+        <section class="code code--with-padding">
+          <code class="code__html">
+            <span class="code__html-tag">
+              &lt;img
+              <span class="code__html-attr"
+                >class=
+                <span class="code__html-value">"image"</span>
+              </span>
+              <span class="code__html-attr"
+                >src=
+                <span class="code__html-value"
+                  >"https://via.placeholder.com/100"</span
+                >
+              </span>
+              &gt;
+            </span>
+            <br />
+            <span class="code__html-tag"> ... </span>
+          </code>
+        </section>
+
+        <section class="article__section">
+          <h2 class="article__h2">Tabs</h2>
+          <section>
+            <ul class="tabs__list tabs__list--row">
+              <li class="tabs__list-item">Default</li>
+              <li class="tabs__list-item tabs__list-item--hover">Hover</li>
+              <li class="tabs__list-item tabs__list-item--active">Active</li>
+            </ul>
+          </section>
+
+          <section class="code code--with-padding">
+            <code class="code__html">
+              <span class="code__html-tag">...</span>
+            </code>
+          </section>
+        </section>
+        <!-- list -->
+        <section class="article__section">
+          <h2 class="article__h2">List Items</h2>
+
+          <section>
+            <ul class="tabs__list tabs__list--row tabs__list--items">
+              <li class="tabs__list-item">List Item</li>
+              <li class="tabs__list-item tabs__list-items--hover">
+                List Item Hover
+              </li>
+              <li class="tabs__list-item tabs__list-items--active">
+                List Item Active
+              </li>
+            </ul>
+          </section>
+
+          <section class="code code--with-padding">
+            <code class="code__html">
+              <span class="code__html-tag">...</span>
+            </code>
+          </section>
+        </section>
+
+        <!-- checkbox -->
+        <section>
+          <h2 class="article__h2">Input: Checkbox</h2>
+
+          <input
+            class="checkbox"
+            type="checkbox"
+            id="checkbox-checked"
+            checked
+          />
+          <label class="checkbox__label" for="checkbox-checked">Checked</label>
+          <input class="checkbox" type="checkbox" id="checkbox-checked" />
+          <label class="checkbox__label" for="checkbox-checked">Unhecked</label>
+        </section>
+        <section class="code code--with-padding">
+          <code class="code__html">
+            <span class="code__html-tag">...</span>
+          </code>
+        </section>
+
+        <!-- checkbox groups -->
+        <section>
+          <h2 class="article__h2">Checkbox Groups</h2>
+          <h3 class="article__h3">Choose horizontal options:</h3>
+
+          <input
+            class="checkbox"
+            type="checkbox"
+            name="horizontal"
+            id="checkbox-groups-horizontal-1"
+            checked
+          />
+          <label for="checkbox-groups-horizontal-1" class="checkbox__label"
+            >Horizontal 1</label
+          >
+
+          <input
+            class="checkbox"
+            type="checkbox"
+            name="horizontal"
+            id="checkbox-groups-horizontal-2"
+          />
+          <label for="checkbox-groups-horizontal-2" class="checkbox__label"
+            >Horizontal 2</label
+          >
+
+          <input
+            class="checkbox"
+            type="checkbox"
+            name="horizontal"
+            id="checkbox-groups-horizontal-3"
+          />
+          <label for="checkbox-groups-horizontal-2" class="checkbox__label"
+            >Horizontal 3</label
+          >
+
+          <br /><br />
+          <h3 class="article__h3">
+            <span class="text--red">*</span> Choose vertical options:
+          </h3>
+
+          <input
+            class="checkbox"
+            type="checkbox"
+            name="vertical"
+            id="checkbox-groups-vertical-1"
+          />
+          <label for="checkbox-groups-vertical-1" class="checkbox__label"
+            >Vertical 1</label
+          ><br />
+
+          <input
+            class="checkbox"
+            type="checkbox"
+            name="vertical"
+            id="checkbox-groups-vertical-2"
+          />
+          <label for="checkbox-groups-vertical-2" class="checkbox__label"
+            >Vertical 2</label
+          ><br />
+
+          <input
+            class="checkbox"
+            type="checkbox"
+            name="vertical"
+            id="checkbox-groups-vertical-3"
+          />
+          <label for="checkbox-groups-vertical-2" class="checkbox__label"
+            >Vertical 3</label
+          ><br />
+          <span class="text--warning text--red">Choose at least one option</span
+          ><br /><br />
+          <section class="code code--with-padding">
+            <code class="code__html">
+              <span class="code__html-tag">...</span>
+            </code>
+          </section>
+        </section>
+
+        <!-- Input: Radio Buttons  -->
+        <section>
+          <h2 class="article__h2">Input: Radio Buttons</h2>
+          <input
+            type="radio"
+            name=""
+            id="input-radio-button-checked"
+            class="radio"
+            checked
+          />
+          <label for="input-radio-button-checked" class="radio__label"
+            >Checked</label
+          >
+          <input
+            type="radio"
+            name=""
+            id="input-radio-button-checked"
+            class="radio"
+          />
+          <label for="input-radio-button-checked" class="radio__label"
+            >Unchecked</label
+          >
+
+          <section class="code code--with-padding">
+            <code class="code__html">
+              <span class="code__html-tag">...</span>
+            </code>
+          </section>
+        </section>
+
+        <!-- radio button groups -->
+        <section>
+          <h2 class="article__h2">Radio Button Groups</h2>
+          <h3 class="article__h3">Choose an horizontal option:</h3>
+
+          <input
+            name="radio-groups-horizontal"
+            type="radio"
+            class="radio"
+            id="radio-button-groups-horizontal-1"
+            checked
+          />
+          <label for="radio-button-groups-horizontal-1" class="radio__label"
+            >Option 1</label
+          >
+          <input
+            name="radio-groups-horizontal"
+            type="radio"
+            class="radio"
+            id="radio-button-groups-horizontal-2"
+          />
+          <label for="radio-button-groups-horizontal-2" class="radio__label"
+            >Option 2</label
+          >
+          <input
+            name="radio-groups-horizontal"
+            type="radio"
+            class="radio"
+            id="radio-button-groups-horizontal-3"
+          />
+          <label for="radio-button-groups-horizontal-3" class="radio__label"
+            >Option 3</label
+          ><br />
+
+          <h3 class="article__h3">
+            <span class="text--red">*</span> Choose a vertical option:
+          </h3>
+
+          <input
+            name="radio-groups-vertical"
+            type="radio"
+            class="radio"
+            id="radio-button-groups-vertical-1"
+          />
+          <label for="radio-button-groups-vertical-1" class="radio__label"
+            >Option 1</label
+          ><br />
+          <input
+            name="radio-groups-vertical"
+            type="radio"
+            class="radio"
+            id="radio-button-groups-vertical-2"
+          />
+          <label for="radio-button-groups-vertical-2" class="radio__label"
+            >Option 2</label
+          ><br />
+          <input
+            name="radio-groups-vertical"
+            type="radio"
+            class="radio"
+            id="radio-button-groups-vertical-3"
+          />
+          <label for="radio-button-groups-vertical-3" class="radio__label"
+            >Option 3</label
+          ><br />
+          <span class="text--warning text--red">Choose 1 option</span
+          ><br /><br />
+
+          <section class="code code--with-padding">
+            <code class="code__html">
+              <span class="code__html-tag">...</span>
+            </code>
+          </section>
+        </section>
+        <!-- input text -->
+        <section>
+          <h2 class="article__h2">Input: Text</h2>
+          <input
+            type="text"
+            name=""
+            id=""
+            class="text-input"
+            placeholder="Placeholder"
+          /><br />
+          <input
+            type="text"
+            name=""
+            id=""
+            class="text-input text-input--focus-state"
+            placeholder="Focus State"
+          /><br />
+          <input
+            type="text"
+            name=""
+            id=""
+            class="text-input text-input--filled"
+            placeholder="Filled"
+          /><br />
+          <input
+            type="text"
+            name=""
+            id=""
+            class="text-input text-input--error text-input--filled"
+            placeholder="Error"
+          /><br />
+          <section class="code code--with-padding">
+            <code class="code__html">
+              <span class="code__html-tag">...</span>
+            </code>
+          </section>
+        </section>
+
+        <!-- dropdown -->
+        <section>
+          <h2 class="article__h2">Input: dropdown</h2>
+          <select name="" id="" class="dropdown">
+            <option class="dropdown__option" value="0" disabled selected>
+              Default Option
+            </option>
+            <option class="dropdown__option" value="1">banana1</option>
+            <option class="dropdown__option" value="2">banana2</option>
+            <option class="dropdown__option" value="3">banana3</option>
+          </select>
+          <br />
+          <select name="" id="" class="dropdown dropdown--focus">
+            <option class="dropdown__option" value="0" disabled selected>
+              Focus State
+            </option>
+            <option class="dropdown__option" value="1">banana1</option>
+            <option class="dropdown__option" value="2">banana2</option>
+            <option class="dropdown__option" value="3">banana3</option>
+          </select>
+          <section class="code code--with-padding">
+            <code class="code__html">
+              <span class="code__html-tag">...</span>
+            </code>
+          </section>
+        </section>
+
+        <!-- Input Group -->
+        <section>
+          <h2 class="article__h2">Input Group</h2>
+          <label for="input-with-help-text" class="input__label">Label</label
+          ><br />
+          <input
+            type="text"
+            class="text-input text-input--with-help-text"
+            name=""
+            id="input-with-help-text"
+            placeholder="Placeholder"
+          />
+          <p class="input__help-text">With help text</p>
+          <br />
+          <label for="input-in-line" class="input__label">Inline</label>
+          <input
+            type="text"
+            name=""
+            id="input-in-lin"
+            class="text-input"
+            placeholder="Placeholder"
+          />
+          <br />
+          <label for="input-with-required" class="input__label"
+            ><span class="text--red">*</span> Label</label
+          ><br />
+          <input
+            type="text"
+            name=""
+            id="input-with-required"
+            class="text-input text-input--error text-input--filled text-input--with-help-text"
+            placeholder="Error"
+          />
+          <p class="input__help-text input__help-text--red">Error Message</p>
+          <br />
+          <section class="code code--with-padding">
+            <code class="code__html">
+              <span class="code__html-tag">...</span>
+            </code>
+          </section>
+        </section>
+
+        <!-- Table cells -->
+        <section>
+          <h2 class="article__h2">Table Cells</h2>
+          <section class="cell__wrapper">
+            <p class="table__cell table__cell--header">Table Head</p>
+            <p class="table__cell">Table Cell</p>
+            <p class="table__cell table__cell--stripped">Striped Cell</p>
+          </section>
+        </section>
+        <section class="code code--with-padding">
+          <code class="code__html">
+            <span class="code__html-tag">...</span>
+          </code>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>

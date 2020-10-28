@@ -1,0 +1,23 @@
+.banner {
+  height: 322px;
+  width: 100%;
+  max-width: 1100px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url(https://www.creativefaze.com/sites/default/files/Technique-for-Faster-Web-Development.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  padding: 48px 80px;
+}
+
+.banner__h1 {
+    font-size: 32px;
+    font-family: var(--headings-font);
+    color: var(--white-color);
+}
+
+.banner__p {
+    font-family: var(--headings-font);
+    color: var(--white-color);
+    font-size: 16px;
+    margin-bottom: 48px;
+}
